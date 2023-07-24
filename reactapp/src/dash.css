@@ -1,0 +1,243 @@
+body{
+    background-image: url(Books.jpg);
+    background-image: cover;
+  }
+  nav{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    background:black;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(red, green, blue, alpha);
+  }
+  #navbar{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #navbar li{
+      list-style: none;
+      padding: 0 20px;
+      position: relative;
+  }
+  #navbar li a{
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: aliceblue;
+      transition: 0.3 ease-in-out;
+  }
+  #navbar li a:hover{
+      color: brown;
+  }
+  #navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: brown;
+    position:absolute;
+    bottom: -4px;
+    left: 20px;
+  
+  }
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+  .footer {
+    background-color: black;
+    color: #fefefe;
+    position: relative;
+    padding: 20px;
+    width: 97.5%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 0%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+  }
+  
+  .footer .content p {
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer .content a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .footer .content a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .footer .content h4 {
+    margin: 0rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+    
+    .footer {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer .content,
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer {
+      position: unset;
+    }
+  }
+  .logo
+      {
+        width:3cm;
+        height:3cm;
+        background-position: center;
+        background-size: cover;
+      }
+
+      .main-content {
+        flex-grow: 1;
+        padding: 40px;
+      }
+      
+      .hero-section {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      
+      .hero-title {
+        font-size: 40px;
+        font-weight: bold;
+        color: #8d1919;
+        margin-bottom: 10px;
+      }
+      
+      .hero-subtitle {
+        font-size: 30px;
+        color: #0b0b0b;
+        margin-bottom: 20px;
+      }
+      
+      .cta-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #961414;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .services-section {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      
+      .section-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #c4e2ce;
+        margin-bottom: 20px;
+      }
+      
+      .service-card {
+        display: inline-block;
+        width: 250px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        margin: 10px;
+      }
+      
+      .service-card img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+      }
+      
+      .service-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      
+      .service-description {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+      
