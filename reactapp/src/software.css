@@ -1,0 +1,16 @@
+.hi
+{
+    color: white;
+    width: 300px;
+    border: 1px solid #d6d7da;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 16px;
+    color: #333333;
+    font-size: 14px;
+    background: white;
+    margin: 50px auto;
+    float: right;
+    margin-right: 600px;
+}
